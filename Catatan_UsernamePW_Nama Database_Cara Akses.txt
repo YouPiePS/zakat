@@ -1,0 +1,12 @@
+Username : yovie
+Password : admin
+atau
+Username : admin
+Password : admin
+
+Nama Database : zakat
+
+Cara Akses : 
+localhost/zakaty
+bisa juga
+localhost/zakaty/public/login.html

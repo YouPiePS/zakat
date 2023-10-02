@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/faf88445ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Zakaty</title>
+</head>
+<body class="font-worksans">
+    <div class="flex flex-col items-center justify-center bg-gray-900 px-6 py-8 mx-auto md:h-screen lg:py-0 p-10">
+        <div class="bg-gray-600 text-white rounded-lg p-10">
+            <h1 class="text-4xl font-bold text-center">Login Zakaty</h1>
+            <br>
+            <form class="" action="./ceklogin.php" method="post" autocomplete="off">
+                <div class="mx-auto py-5 text w-2/3">
+                    <div>
+                        <label class="block mb-2 text-sm text-gray-900 dark:text-gray-200">Username</label>
+                        <input type="text" name="username" placeholder="Username" required class="block px-5 py-3 mt-2 w-full text-white placeholder-gray-400 bg-white border-black border-2 rounded-lg dark:placeholder-gray-600 dark:text-black dark:border-gray-700 focus:border-gray-400 dark:focus:border-gray-500 focus:ring-gray-500 focus:outline-none focus:ring focus:ring-opacity-40" />
+                    </div>
+                    <br>
+                    <div>
+                        <label class="block mb-2 text-sm text-gray-900 dark:text-gray-200">Password</label>
+                        <input type="password" name="password" placeholder="Password" required class="block px-5 py-3 mt-2 w-full text-white placeholder-gray-400 bg-white border-black border-2 rounded-lg dark:placeholder-gray-600 dark:text-black dark:border-gray-700 focus:border-gray-400 dark:focus:border-gray-500 focus:ring-gray-500 focus:outline-none focus:ring focus:ring-opacity-40" />
+                    </div>
+                </div>
+                <div>
+                    <center><button type="submit" name="login" class="bg-green-700 border border-white text-white p-2 rounded-lg duration-300 hover:bg-green-600">Login</button></center>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
